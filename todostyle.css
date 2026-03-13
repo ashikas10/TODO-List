@@ -1,0 +1,74 @@
+.hero{
+    background-image: url('todoimg.avif');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    margin-top: 100px;
+    color: rgb(255, 0, 0);
+    font-size:50px ;
+    transition: transform 0.2s;
+}
+header h1:hover{
+    transform: scale(1.05);
+}
+.hero-body{
+    list-style-position: inside;
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: justify;
+    background-color: rgb(186, 242, 252);
+    transition: transform 0.3s;
+}
+.hero-body:hover{
+    transform: scale(1.1);
+}
+input{
+    background-color: #faf0f0;
+    width: 70%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: tranform 0.2s;
+}
+input:hover{
+    transform: scale(1.05);
+}
+li{
+  transition: transform 0.2s;
+}
+
+li:hover{
+  transform: scale(1.1);
+}
+
+button{
+    background-color: rgb(236, 250, 198);
+    border-radius: 5px;
+    margin: 3px;
+    border: 2px solid #ccc;
+    font-weight: medium;
+    transition: transform 0.2s;
+    width: 70px;
+    height: 30px;
+}
+.btn-add:hover{
+    background-color: rgb(42, 177, 42);
+    color: white;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.btn-del:hover{
+    background-color: rgb(255, 78, 78);
+    border-radius: 5px;
+    color: white;
+}
+.btn-edit:hover{
+    background-color: rgb(94, 94, 247);
+    border-radius: 5px;
+    color: white;
+}
